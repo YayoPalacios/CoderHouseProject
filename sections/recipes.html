@@ -6,115 +6,119 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="./../icons/if-food-c209-2427855_85698.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@200;300;400&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="./../css/styles.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/styles.css" />
   <title>Recipes</title>
 </head>
 
 <body>
   <header class="header">
-    <nav class="header__nav">
-      <h1 class="logo">Pasta & Dining</h1>
-      <ul class="header__list">
-        <li class="header__item">
-          <a class="header__link" href="../index.html">Home</a>
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="./menu.html">Menu</a>
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="./recipes.html">Recipes</a>
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="./about_us.html">About Us</a>
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="./contact.html">Contact</a>
-        </li>
-      </ul>
+    <nav class="header__nav navbar navbar-expand-lg navbar-light bg-white fixed-top p-3">
+      <div class="container-fluid">
+        <h1 class="logo navbar-brand">Pasta & Dining</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="header__list navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link rounded-top" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link rounded-top" href="../sections/menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link rounded-top" href="../sections/recipes.html">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link rounded-top" href="../sections/about_us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link rounded-top" href="../sections/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
-  <hr class="footer__break" />
 
-  <main class="mainRecipes">
-    <section class="recipes">
-      <div class="recipes__title">
-        <h2>OUR RECIPES</h2>
+  <main class="main__container container-xl">
+    <header class="main__header">
+      <h1>Try out our beautiful <span>Recipes</span></h1>
+      <p class="fw-light">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, vitae!
+      </p>
+    </header>
+
+    <section class="card mb-4 bg-light">
+      <img class="rounded-start rounded-end img-fluid" src="../img/recipes_1.jpg" alt="pizza">
+      <div class="card-body">
+        <h3>Recipe One</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo nam veritatis
+          rem omnis veniam,
+          ipsam vel. Enim, veritatis laborum?</p>
+        <a href="#" class="btn btn-lg btn-dark">Go to Recipe</a>
       </div>
     </section>
-    <section class="galleryRecipes">
-      <div class="galleryRecipes__main meal1">
-        <img class="galleryRecipes__item" src="../img/food5.jpg" alt="Some meal" />
-        <div class="galleryRecipes__text">
-          <p>Dish 1</p>
-        </div>
+
+    <section class="card mb-4 bg-light" data-aos="fade-right">
+      <img class="rounded-start rounded-end img-fluid" src="../img/recipes_2.jpg" alt="spaghetti">
+      <div class="card__text">
+        <h3>Recipe Two</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo nam veritatis rem omnis veniam,
+          ipsam vel. Enim, veritatis laborum?</p>
+        <a href="#" class="btn btn-lg btn-dark">Go to Recipe</a>
       </div>
-      <div class="galleryRecipes__main meal2">
-        <img class="galleryRecipes__item" src="../img/food5.jpg" alt="Some meal" />
-        <div class="galleryRecipes__text">
-          <p>Dish 2</p>
-        </div>
+    </section>
+
+    <section class="card mb-4 bg-light" data-aos="fade-left">
+      <img class="rounded-start rounded-end img-fluid" src="../img/recipes_3.jpg" alt="gelato">
+      <div class="card__text">
+        <h3>Recipe Three</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo nam veritatis rem omnis veniam,
+          ipsam vel. Enim, veritatis laborum?</p>
+        <a href="#" class="btn btn-lg btn-dark">Go to Recipe</a>
       </div>
-      <div class="galleryRecipes__main meal3">
-        <img class="galleryRecipes__item" src="../img/food5.jpg" alt="Some meal" />
-        <div class="galleryRecipes__text">
-          <p>Dish 3</p>
-        </div>
+    </section>
+
+    <section class="card mb-4 bg-light" data-aos="fade-right">
+      <img class="rounded-start rounded-end img-fluid" src="../img/recipes_4.jpg" alt="soup">
+      <div class="card__text">
+        <h3>Recipe Four</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo nam veritatis rem omnis veniam,
+          ipsam vel. Enim, veritatis laborum?</p>
+        <a href="#" class="btn btn-lg btn-dark">Go to Recipe</a>
       </div>
-      <div class="galleryRecipes__main meal4">
-        <img class="galleryRecipes__item" src="../img/food5.jpg" alt="Some meal" />
-        <div class="galleryRecipes__text">
-          <p>Dish 4</p>
-        </div>
-      </div>
-      <div class="galleryRecipes__main meal5">
-        <img class="galleryRecipes__item" src="../img/food5.jpg" alt="Some meal" />
-        <div class="galleryRecipes__text">
-          <p>Dish 5</p>
-        </div>
-      </div>
-      <div class="galleryRecipes__main meal6">
-        <img class="galleryRecipes__item" src="../img/food5.jpg" alt="Some meal" />
-        <div class="galleryRecipes__text">
-          <p>Dish 6</p>
-        </div>
-      </div>
-      <div class="galleryRecipes__main meal7">
-        <img class="galleryRecipes__item" src="../img/food5.jpg" alt="Some meal" />
-        <div class="galleryRecipes__text">
-          <p>Dish 7</p>
-        </div>
-      </div>
-      <div class="galleryRecipes__main meal8">
-        <img class="galleryRecipes__item" src="../img/food5.jpg" alt="Some meal" />
-        <div class="galleryRecipes__text">
-          <p>Dish 8</p>
-        </div>
-      </div>
-      <div class="galleryRecipes__main meal9">
-        <img class="galleryRecipes__item" src="../img/food5.jpg" alt="Some meal" />
-        <div class="galleryRecipes__text">
-          <p>Dish 9</p>
-        </div>
+    </section>
+
+    <section class="card mb-4 bg-light" data-aos="fade-left">
+      <img class="rounded-start rounded-end img-fluid" src="../img/recipes_5.jpg" alt="tart">
+      <div class="card__text">
+        <h3>Recipe Five</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo nam veritatis rem omnis veniam,
+          ipsam vel. Enim, veritatis laborum?</p>
+        <a href="#" class="btn btn-lg btn-dark">Go to Recipe</a>
       </div>
     </section>
   </main>
-  <footer class="footer">
-    <nav class="footer__nav">
-      <ul class="footer__list">
-        <li class="footer__item">
-          <a class="footer__link" href="./index.html">Home</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="./sections/about_us.html">About Us</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="./sections/contact.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 400,
+      delay: 0,
+      duration: 1000
+    });
+  </script>
 </body>
 
 </html>
