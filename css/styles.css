@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+li,
+button,
+label,
+input,
+p {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 4.8rem;
+}
+h3 {
+  font-size: 3rem;
+}
+h4,
+h5 {
+  font-size: 2.8rem;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar and hero section*/
+
+.logo {
+  font-family: "Allura", cursive;
+  font-size: 6rem;
+  padding: 0rem 2rem;
+  color: #012626;
+  padding-left: 4rem;
+}
+
+.header {
+  min-height: 10vh;
+  top: 0px;
+  z-index: 3;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #012626;
+  padding: 0rem 2rem;
+  transition: background-color 0.4s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: #012626;
+  color: white;
+}
+
+#navbarNav {
+  justify-content: flex-end;
+  padding: 2rem;
+}
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.35), transparent),
+    url("../img/pasta3.jpg");
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.banner h2 {
+  font-size: 12rem;
+  font-weight: 400;
+}
+
+/* New + Notable + p */
+
+.row {
+  min-height: 50vh;
+  background-color: #798c87;
+  color: white;
+}
+
+.secondary__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondary__title h2 {
+  font-size: 10rem;
+}
+
+.secondary__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondary__container p {
+  font-size: 2.3rem;
+}
+
+.secondary__container a {
+  color: white;
+}
+
+/* Gallery w/3 meals */
+
+.gallery {
+  background-color: #012626;
+  min-height: 50vh;
+  text-align: center;
+  align-items: center;
+}
+
+.gallery img {
+  width: 90%;
+}
+
+/* More than just pasta*/
+
+.pasta__main {
+  background-color: #325959;
+}
+
+.pasta__main h2 {
+  color: white;
+  font-size: 10rem;
+}
+
+.pasta__row {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.pasta__title {
+  display: flex;
+  flex: 1 1 20rem;
+  align-items: center;
+}
+
+.pasta__container {
+  display: flex;
+  flex: 1 1 20rem;
+}
+
+.pasta__container img {
+  width: 100%;
+}
+
+/*How to get here - map */
+
+.location {
+  background-color: #0b0d0d;
+}
+
+.location__dir h4 {
+  font-size: 8rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.location__dir p {
+  font-size: 2rem;
+}
+
+.ratio {
+  width: 90%;
+}
+
+/*Footer*/
+
+.footer {
+  background-color: white;
+}
+
+.footer__main p {
+  color: black;
+}
+
+.footer__list a {
+  color: #012626;
+  transition: background-color 0.4s;
+}
+
+.footer__list a:hover {
+  background-color: #012626;
+  color: white;
+}
+
+/*Media queries*/
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 45%;
+  }
+
+  .pasta__row {
+    flex-direction: column;
+  }
+
+  .pasta__title {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pasta__title h2 {
+    font-size: 8rem;
+  }
+
+  .location__dir h4 {
+    font-size: 6rem;
+  }
+
+  .location__dir p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .banner h2 {
+    font-size: 9rem;
+  }
+}
