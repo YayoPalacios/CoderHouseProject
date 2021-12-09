@@ -267,6 +267,7 @@ body {
   display: inline-block;
   padding: 0.8rem 1.8rem;
   margin-top: 2rem;
+  background-color: #325959;
 }
 
 .btn:hover {
