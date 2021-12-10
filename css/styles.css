@@ -82,6 +82,7 @@ body {
 .banner h2 {
   font-size: 12rem;
   font-weight: 400;
+  text-shadow: 0 4px 0 #4f4e4e;
 }
 
 /* New + Notable + p */
