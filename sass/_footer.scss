@@ -1,0 +1,15 @@
+.footer {
+  background-color: white;
+}
+
+.footer__list {
+  & a {
+    color: $dark-green;
+    transition: background-color 0.4s;
+  }
+
+  & a:hover {
+    background-color: $dark-green;
+    color: white;
+  }
+}

@@ -1,0 +1,29 @@
+.logo {
+  font-family: $secondary-font;
+  font-size: 6rem;
+  padding: 0rem 2rem;
+  color: $dark-green;
+  padding-left: 4rem;
+}
+
+.header {
+  min-height: 10vh;
+  top: 0px;
+  z-index: 3;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $dark-green;
+  padding: 0rem 2rem;
+  transition: background-color 0.4s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: $dark-green;
+  color: white;
+}
+
+#navbarNav {
+  justify-content: flex-end;
+  padding: 2rem;
+}

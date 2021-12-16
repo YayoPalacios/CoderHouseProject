@@ -1,0 +1,155 @@
+/*Hero section w/pasta plate*/
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.35), transparent),
+    url("../img/pasta3.jpg");
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+
+  & h2 {
+    font-size: 12rem;
+    font-weight: 400;
+    text-shadow: 0 4px 0 $grey-shadow;
+  }
+}
+
+/* New + Notable + Paragraph */
+
+.new_notable {
+  min-height: 50vh;
+  background-color: $light-green;
+  color: white;
+}
+
+.secondary__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & h2 {
+    font-size: 10rem;
+  }
+}
+
+.secondary__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & p {
+    font-size: 2.3rem;
+  }
+
+  & a {
+    color: white;
+  }
+}
+
+/* Gallery w/3 meals */
+
+.gallery {
+  background-color: $dark-green;
+  min-height: 50vh;
+  text-align: center;
+  align-items: center;
+  color: white;
+
+  & img {
+    width: 90%;
+  }
+}
+
+/* More than just pasta*/
+
+.pasta__main {
+  background-color: $medium-green;
+
+  & h2 {
+    color: white;
+    font-size: 10rem;
+  }
+}
+
+.pasta__row {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.pasta__title {
+  display: flex;
+  flex: 1 1 20rem;
+  align-items: center;
+}
+
+.pasta__container {
+  display: flex;
+  flex: 1 1 20rem;
+
+  & img {
+    width: 100%;
+  }
+}
+
+/*How to get here + map */
+
+.location {
+  background-color: $black-ish;
+}
+
+.location__dir {
+  & h4 {
+    font-size: 6rem;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  & p {
+    font-size: 2rem;
+  }
+}
+
+.ratio {
+  width: 90%;
+}
+
+/*Index Media queries*/
+
+@media screen and (max-width: 1024px) {
+  .pasta__row {
+    flex-direction: column;
+  }
+
+  .pasta__title {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pasta__title h2 {
+    font-size: 8rem;
+  }
+
+  .location__dir h4 {
+    font-size: 6rem;
+  }
+
+  .location__dir p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .banner h2 {
+    font-size: 9rem;
+  }
+}
