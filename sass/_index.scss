@@ -25,10 +25,16 @@
   color: white;
 }
 
-.secondary__title {
+/* Placeholder*/
+
+%container-props {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.secondary__title {
+  @extend %container-props;
 
   & h2 {
     font-size: 10rem;
@@ -36,9 +42,7 @@
 }
 
 .secondary__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %container-props;
 
   & p {
     font-size: 2.3rem;
