@@ -364,4 +364,29 @@ body {
   background-color: #012626;
   color: white;
 }
+
+.main-contact {
+  margin: auto;
+}
+
+.contact-us h1 {
+  font-family: "Allura", cursive;
+  font-size: 7.2rem;
+}
+
+.main-contact {
+  color: #012626;
+}
+
+.fas {
+  color: #012626;
+}
+
+.btn-form {
+  color: white;
+}
+
+.btn-form:hover {
+  color: white;
+}
 /*# sourceMappingURL=styles.css.map */

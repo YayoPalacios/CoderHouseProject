@@ -1,0 +1,24 @@
+.main-contact {
+  margin: auto;
+}
+
+.contact-us h1 {
+  font-family: $secondary-font;
+  font-size: 7.2rem;
+}
+
+.main-contact {
+  color: map-get($navbar-color, primary);
+}
+
+.fas {
+  color: map-get($navbar-color, primary);
+}
+
+.btn-form {
+  color: white;
+}
+
+.btn-form:hover {
+  color: white;
+}
