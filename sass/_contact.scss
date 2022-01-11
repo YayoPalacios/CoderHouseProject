@@ -1,14 +1,15 @@
+/*Contact form styles*/
+
 .main-contact {
   margin: auto;
-}
-
-.contact-us h1 {
-  font-family: $secondary-font;
-  font-size: 7.2rem;
-}
-
-.main-contact {
   color: map-get($navbar-color, primary);
+}
+
+.contact-us h2 {
+  font-family: $secondary-font;
+  font-size: 9rem;
+  min-height: 20vh;
+  @extend %container-props;
 }
 
 .fas {
@@ -16,9 +17,26 @@
 }
 
 .btn-form {
+  font-size: 1.5rem;
+  display: inline-block;
+  padding: 0.8rem 1.8rem;
+  margin-top: 2rem;
+  background-color: $medium-green;
   color: white;
 }
 
 .btn-form:hover {
-  color: white;
+  transform: scale(1.07);
+}
+
+/*Contact Media queries*/
+
+@media screen and (max-width: 425px) {
+  .contact-us h2 {
+    font-size: 8rem;
+  }
+
+  .fas {
+    display: none;
+  }
 }
