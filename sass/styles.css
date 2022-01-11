@@ -404,7 +404,7 @@ body {
 
 /*About Us section styles*/
 .about-section {
-  background: url(/img/food6.jpg) left;
+  background: url(../img/food6.jpg) left;
   background-repeat: no-repeat;
   min-height: 90vh;
   background-size: 65%;
