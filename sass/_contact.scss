@@ -6,8 +6,7 @@
 }
 
 .contact-us h2 {
-  font-family: $secondary-font;
-  font-size: 9rem;
+  font-size: 6rem;
   min-height: 20vh;
   @extend %container-props;
 }
@@ -32,10 +31,6 @@
 /*Contact Media queries*/
 
 @media screen and (max-width: 425px) {
-  .contact-us h2 {
-    font-size: 8rem;
-  }
-
   .fas {
     display: none;
   }

@@ -112,7 +112,7 @@ body {
 }
 
 /* Placeholder*/
-.secondary__title, .secondary__container, .contact-us h2 {
+.secondary__title, .secondary__container, .contact-us h2, .about-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -373,8 +373,7 @@ body {
 }
 
 .contact-us h2 {
-  font-family: "Allura", cursive;
-  font-size: 9rem;
+  font-size: 6rem;
   min-height: 20vh;
 }
 
@@ -398,11 +397,68 @@ body {
 
 /*Contact Media queries*/
 @media screen and (max-width: 425px) {
-  .contact-us h2 {
-    font-size: 8rem;
-  }
   .fas {
     display: none;
+  }
+}
+
+/*About Us section styles*/
+.about-section {
+  background: url(/img/food6.jpg) left;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  background-size: 65%;
+  background-color: #798c87;
+  overflow: hidden;
+  padding: 100px 0;
+}
+
+.internal-section {
+  width: 65%;
+  background-color: white;
+  padding: 12rem;
+}
+
+.internal-section h2 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  color: #0b0d0d;
+}
+
+.internal-text {
+  font-size: 1.7rem;
+  text-align: justify;
+  line-height: 2;
+  color: #4f4e4e;
+}
+
+/*About Us Media queries*/
+@media screen and (max-width: 1025px) {
+  .internal-section {
+    padding: 10rem;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .about-section {
+    background-size: 120%;
+    padding: 10rem 4rem;
+  }
+  .internal-section {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .about-section {
+    padding: 0;
+  }
+  .internal-section {
+    padding: 10rem;
+  }
+  .internal-section h2 {
+    text-align: center;
+    margin-bottom: 5rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
