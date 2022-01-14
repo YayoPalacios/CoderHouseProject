@@ -72,19 +72,42 @@
     );
   }
 }
+/*View full menu button*/
+
+.btn_menu {
+  background-image: linear-gradient(
+    to right,
+    #44a08d 0%,
+    #093637 51%,
+    #44a08d 100%
+  );
+}
+
+.btn_menu {
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn_menu:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+}
 
 /* Playlist */
 
 .playlist {
   background-color: $black-ish;
   color: white;
+  min-height: 60vh;
 
   & h3 {
     font-size: 7rem;
   }
 
   & p {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 }
 
@@ -93,6 +116,18 @@
 @media screen and (max-width: 426px) {
   .menu_banner h2 {
     font-size: 12rem;
+  }
+
+  .menu_title h3 {
+    font-size: 7rem;
+  }
+
+  .playlist h3 {
+    font-size: 6rem;
+  }
+
+  .playlist p {
+    font-size: 1.5rem;
   }
 }
 
