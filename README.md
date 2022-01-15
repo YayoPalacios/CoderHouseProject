@@ -4,9 +4,9 @@ CoderHouse Bootcamp very first Web_Dev project
 <h1 align="center">Hi 👋, I'm Yael Palacios</h1>
 <h3 align="center">A passionate IT enthusiast looking to get into Web Development</h3>
 
-- 🔭 I’m currently working on [CoderHouseProject](https://github.com/YayoPalacios/CoderHouseProject)
+- 🔭 Currently working on [CoderHouseProject](https://coderhouse-project.vercel.app/), a website for my dream fictional Restaurant
 
-- 🌱 I’ve recently enrolled **in CoderHouse Web_Dev course and DEV.F Coding Bootcamp**
+- 🌱 I’ve recently enrolled **in CoderHouse Web_Dev Course and DEV.F Coding Bootcamp**
 
 - 👯 Looking to collaborate on **real life projects to contribute my grain of salt with my recently acquired and evolving skills**
 
