@@ -1,9 +1,19 @@
+/* Clickable logo */
+
 .logo {
   font-family: $secondary-font;
   font-size: 6rem;
   padding: 0rem 2rem;
-  color: $dark-green;
   padding-left: 4rem;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: $dark-green;
+}
+
+.logo-link:hover {
+  color: $dark-green;
 }
 
 .header {
