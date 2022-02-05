@@ -108,31 +108,31 @@
   }
 }
 
-.slider-1 {
-  min-height: 30vh;
+/* Placeholder*/
+
+%slider-props {
+  min-height: 28vh;
   background-position: center;
   background-size: cover;
+  text-align: center;
+}
+
+.slider-1 {
+  @extend %slider-props;
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), transparent),
     url(../img/slider1.jpg);
-  text-align: center;
 }
 
 .slider-2 {
-  min-height: 30vh;
-  background-position: center;
-  background-size: cover;
+  @extend %slider-props;
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), transparent),
     url(../img/slider2.jpg);
-  text-align: center;
 }
 
 .slider-3 {
-  min-height: 30vh;
-  background-position: center;
-  background-size: cover;
+  @extend %slider-props;
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), transparent),
     url(../img/slider3.jpg);
-  text-align: center;
 }
 
 /* Playlist */
