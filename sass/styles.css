@@ -578,6 +578,44 @@ body {
   color: #fff;
 }
 
+/* Food slider w/background imgs */
+.slider {
+  background-color: #0b0d0d;
+}
+
+.slider h3 {
+  font-size: 12rem;
+  color: white;
+  text-shadow: 0 5px 0 #4f4e4e;
+}
+
+.slider-1 {
+  min-height: 30vh;
+  background-position: center;
+  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.35)), to(transparent)), url(../img/slider1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), transparent), url(../img/slider1.jpg);
+  text-align: center;
+}
+
+.slider-2 {
+  min-height: 30vh;
+  background-position: center;
+  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.35)), to(transparent)), url(../img/slider2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), transparent), url(../img/slider2.jpg);
+  text-align: center;
+}
+
+.slider-3 {
+  min-height: 30vh;
+  background-position: center;
+  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.35)), to(transparent)), url(../img/slider3.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), transparent), url(../img/slider3.jpg);
+  text-align: center;
+}
+
 /* Playlist */
 .playlist {
   background-color: #0b0d0d;
@@ -612,6 +650,9 @@ body {
 @media screen and (max-width: 376px) {
   .menu_banner h2 {
     font-size: 10rem;
+  }
+  .slider h3 {
+    font-size: 9rem;
   }
 }
 
