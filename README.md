@@ -6,8 +6,6 @@ CoderHouse Bootcamp very first Web_Dev project
 
 - 🔭 Currently working on [CoderHouseProject](https://coderhouse-project.vercel.app/), a website for my dream fictional Restaurant
 
-- 🌱 I’ve recently enrolled **in CoderHouse Web_Dev Course, really enjyoing the journey**
-
 - 👯 Looking to collaborate on **real life projects to contribute my grain of salt with my recently acquired and evolving skills**
 
 - ⚡ Fun fact: **I'm into audio gear, cooking and fixated with movies and good music**
